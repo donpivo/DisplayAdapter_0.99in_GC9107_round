@@ -1,0 +1,8 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+C1,0603,1,1µF,
+D1,D_SOD-323_HandSoldering,1,B0520WS,
+J1,PinHeader_1x08_P2.54mm_Vertical,1,Pin header,
+J2,505110-1292,1,Display interface,
+Q1,SOT-23,1,BC847,
+R1,0603,1,10Ω,
+R2,0603,1,1kΩ,
