@@ -31,7 +31,7 @@ Arduino_GFX *gfx = create_default_Arduino_GFX();
 Arduino_DataBus *bus = create_default_Arduino_DataBus();
 
 /* More display class: https://github.com/moononournation/Arduino_GFX/wiki/Display-Class */
-// Arduino_GFX *gfx = new Arduino_ILI9341(bus, DF_GFX_RST, 0 /* rotation */, false /* IPS */);
+// Arduino_GFX *gfx = new Arduino_GC9107(bus, 7, 0 /* rotation */, true /* IPS */);
 Arduino_GFX *gfx = new Arduino_GC9107(bus, 7, 0 /* rotation */, true /* IPS */, GC9107_TFTWIDTH, GC9107_TFTHEIGHT, 0, 0, 0, 0);
 
 #endif /* !defined(DISPLAY_DEV_KIT) */
